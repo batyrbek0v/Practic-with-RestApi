@@ -344,3 +344,16 @@ button:nth-child(6){
   }
   
 /* LOADING-END */
+
+@media (max-width:600px) {
+  .btn_card{
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  button{
+    width: 90%;
+    height: 50px;
+    margin: 2px 0;
+  }
+}
